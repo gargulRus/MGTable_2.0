@@ -1,0 +1,9 @@
+<?php
+include(__DIR__.'/env.php');
+include(__DIR__.'/connect.php');
+include(__DIR__.'/functions/sql-select.php');
+include(__DIR__.'/functions/sql-create.php');
+include(__DIR__.'/functions/sql-update.php');
+include(__DIR__.'/functions/sql-delete.php');
+include(__DIR__.'/functions/works.php');
+?>

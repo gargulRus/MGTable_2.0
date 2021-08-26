@@ -1,0 +1,321 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-size: 12px;
+
+
+}
+@-webkit-keyframes fade-in {   0% { opacity: 0; }   100% { opacity: 1; }   }
+@-moz-keyframes    fade-in {   0% { opacity: 0; }   100% { opacity: 1; }   }
+@-o-keyframes      fade-in {   0% { opacity: 0; }   100% { opacity: 1; }   }
+@keyframes         fade-in {   0% { opacity: 0; }   100% { opacity: 1; }   }
+
+/* this is needed to make the content scrollable on larger screens */
+@media (min-width: 576px) {
+    .h-sm-100 {
+        height: 100%;
+    }
+}
+
+.showon{
+	-webkit-animation: fade-in 1s linear; /* Safari 4+ */
+	-moz-animation: fade-in 1s linear; /* Fx 5+ */
+	-o-animation: fade-in 1s linear; /* Opera 12+ */
+	animation: fade-in 1s linear; /* IE 10+, Fx 29+ */
+}
+.showon1{
+	-webkit-animation: fade-in 2s linear; /* Safari 4+ */
+	-moz-animation: fade-in 2s linear; /* Fx 5+ */
+	-o-animation: fade-in 2s linear; /* Opera 12+ */
+	animation: fade-in 2s linear; /* IE 10+, Fx 29+ */
+}
+.div-table{
+/* border: 1px solid red; */
+margin: 0px 5px 0px 5px;	
+}
+.div-table-period{
+/* border: 1px solid blue;
+margin: 0px 100px 0px 100px; */
+margin: 0px 5px 0px 5px;	
+text-align: center;
+}
+.textstyleperiod{	
+text-align: center;
+}
+.div-table-editobj{
+margin: 30px 10px 0px 10px;	
+}
+
+/* .zagolovok{
+	border:1px solid yellow;
+	 width:800px;
+     height: 104px;
+     position: relative;
+}
+.zagolovok div{
+
+	        width:50px; 
+        border:1px solid yellow;
+        height:50px;
+        position: absolute;
+} */
+
+/*.za1{
+	width: auto;
+	margin-left: 30%;
+	display:inline-block;
+}*/
+.buttnons{
+	/* border: 1px solid green; */
+	width:auto;
+    margin: 10px 0px 20px 20px;
+}
+.title-pc{
+	/* border: 1px solid blue; */
+	margin-left:40%;
+	margin-bottom:5px;
+}
+.periodBtn{
+	margin-left:20px;
+	/* border: 1px solid red; */
+}
+.reportsBtn{
+	margin:0px 0px 20px 20px;
+	/* border: 1px solid red; */
+}
+.exitbtn{
+	margin-top: 5px;
+
+	position: relative;
+	right: 0px;
+}
+
+/* стили для тестовой страницы Проект */
+/* стиль для panel-default */
+.redstyle{
+	background-color: red;
+}
+
+.pdficon {
+	width: 40px;
+	height: 40px;
+}
+
+.table1 {
+	background: white;
+	transition: .5s;
+  }
+
+#chetyre:checked ~ .table1 {
+	background: green;
+  }
+
+th{
+	background-color:#CCC;	
+	text-align:center;
+}
+table{
+	font-size: 12px;
+	/* text-align:center; */
+}
+
+
+.objectplace{
+	margin-top: 10px;
+	width: 15%;
+}
+.fomrobject{
+margin: 20px 0px 0px 30px;
+}
+
+.editform{
+margin: -15px 0px 0px 350px;
+}
+
+#editform{
+	width: 100px;
+}
+
+.logoimg {
+	width: 100%;
+	height: 100%;
+}
+.logoimglogin {
+	width: 150px;
+	height: 150px;
+}
+
+.one { 
+	margin-top: 10px;
+	width:auto; 
+}
+.two1{ 
+	width:100px;
+	height:100px; 
+	float: left; 
+	margin-left: 20%;
+}
+.two2 { 
+	width:auto; 
+	height:auto; 
+	float: left;
+	margin:30px 0px 0px 25px;
+
+ }
+ .clock{
+ 	margin-right: 10px;
+ 	width: auto;
+ 	height: auto;
+ 	float:right;
+ 	font-family: sans-serif;
+ 	font-weight: bold;
+ 	font-size: 20px;
+ }
+.one:after {
+    display: block;
+    width: 100%;
+    content: '';
+    clear: both;
+}
+.content {
+	padding-bottom: 40px;
+}
+.footer {
+	float: right;
+	margin-right: 30px;
+}
+
+.btn-marg-top{
+	margin-top: 10px;
+}
+
+.list-object tr>th {
+	font-size: 12px;
+}
+
+ /* .list-object tr>th:nth-child(1) {
+	width: 10px;
+}
+
+.list-object tr>th:nth-child(2) {
+	width: 100px;
+}
+.list-object tr>th:nth-child(2) {
+	width: auto;
+} */
+
+
+.list-object td{ padding:0 !important; } 
+
+.letspacing{
+	word-spacing: 3.0em;
+}
+
+.openformplan{  white-space: nowrap}
+
+/* .sticky{
+} */
+
+.fixed-box {
+    height: 60px;
+}
+.fixed-div {
+	/* border:1px solid yellow; */
+	height: 60px;
+	opacity: 0;
+}
+.fixed {
+    position: fixed;
+	z-index: 9999;
+	top: 0;
+	opacity: 1;
+}
+/* .col1 {
+    width: 150px; 
+} */
+
+/* .twotable{
+opacity: 0;
+} */
+
+.numRstyle{
+    max-width: 150px;
+}
+.red{
+	/* display:inline-flex;
+	position: fixed;
+	z-index: 9999;
+	top:0; */
+/* border: 1px solid red; */
+}
+
+/* Стиль для Состава проекта*/
+
+.box {
+	display: flex;
+	flex-wrap: wrap;
+	height: auto;
+	align-content: space-between;
+	/* border: 1px solid green; */
+  }
+
+.sostav-load{
+	margin-left: 25%;
+	/* border: 1px solid blue; */
+}
+
+.ten{
+	/* width: 10% !important;  */
+	width: auto !important; 
+}
+.eighteen{
+    width: 90% !important;
+}
+/* Класс для модалки*/
+.positionModal{
+	top:15% !important;
+}
+
+.scroll{
+	width: 100%;
+	overflow: auto;
+	height: 500px;
+}
+
+.trash-pos{
+	margin-left: 25px;
+}
+.trash-size{
+	font-size: 25px !important;
+	min-width: 30px;
+	min-height: 30px;
+}
+.centeredtab{
+	vertical-align: middle;
+	text-align: center;
+}
+.logver{
+	vertical-align: middle;
+	text-align: center;
+	font-size: 14px !important;
+}
+.padding0{
+	padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.inputRename{
+	width: 600px;
+}
+.btn-padding{
+	padding: 0px 0px !important;
+}
+
+.dsp-flex{
+	display: flex;
+}
+
+/* Скролл для Меню Изменений */
+.menuscrollheight{height:500px !important;}
+.overflow-auto{overflow:auto !important}
+.scroll-area{overflow-x:hidden;height:400px}

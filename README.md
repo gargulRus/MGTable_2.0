@@ -1,7 +1,9 @@
 # MGTable_2.0
+
 Php CRUD App for storing projects and their details
 
 To run the application, you need a file core/env.php
+
 in which the following constants are defined:
     public const BASE_HOST = "you_host";
     public const BASE_NAME = "you_base_name";
